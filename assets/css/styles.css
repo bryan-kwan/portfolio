@@ -217,6 +217,12 @@ a:hover {
   max-width: 100%;
   height: auto;
 }
+
+/*added */
+.center-paragraph {
+  text-align: center;
+}
+/*added */
 /*********************************************************************
 
 
@@ -769,7 +775,7 @@ footer.entry-meta .meta-in {
 }
 #underfooter {
   background: #191919;
-  padding: 15px 0;
+  padding: 50px 0;
   color: #777;
   font-size: 12px;
 }
@@ -787,7 +793,7 @@ footer.entry-meta .meta-in {
 }
 .follow-me-icons i {
   float: left;
-  margin: 0 10px 0 0;
+  margin: 0 10px 20px 0;
 }
 /* Max page width
 /////////////////////////////////////////////////////////////////////*/
