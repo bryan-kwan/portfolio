@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        
+        <title>My Portfolio</title>
+    
+        <link rel="shortcut icon" href="assets/images/BKlogo.png">
+        
+        <!-- Bootstrap -->
+        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+        <!-- Icons -->
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+        <!-- Custom styles -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+    
+        <!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <script> 
+            $(function(){
+                $('#header').load('header.html'),
+                $('#navbar').load('navbar.html'),
+                $('#footer').load('footer.html');
+            });
+        </script>
+        
+    </head>
+
+    <body class="home">
+    
+        <header id="header">
+            <div id="navbar"></div>
+        </header>
+    
+        <main id="main"> 
+        <div class="container">
+            <div class="row section topspace">
+                <div class="col-md-12">
+                    <p class="lead text-center text-muted">I am a second year student at the University of Calgary completing my undergraduate degree in electrical engineering and minoring in mechatronics. I am a member of the aerospace club, SUAV, and I worked on the Aeroconnect and SUAS competitions. I am also a member of the Schulich Leadership Program</p>
+                </div>
+                    <div class="row section recentworks topspace">
+                    
+                        <h2 class="section-title"><span>Projects</span></h2>
+                                <!-- js table -->
+                                <div class="list" id="list"></div>
+                                <div class="pagenumbers" id ="pagination"></div>
+                                <!-- js table -->
+                            
+                    </div>
+            </div>
+        </div>
+        </main>
+
+        <footer id="footer"></footer>
+
+
+
+            <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+            <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+            <!-- <script src="assets/js/template.js"></script> -->
+            <script src="assets/js/table.js"></script>
+        
+    </body>
+
+</html>
