@@ -16,7 +16,7 @@ const list_element = document.getElementById('list');
 const pagination_element = document.getElementById('pagination');
 
 let current_page = 1;
-let rows = 2;
+let rows = list_element.classList.contains('projectpage') ? 5:2;
 let columns = 3;
 
 function DisplayList(items, wrapper, rows_per_page, columns_per_row, page) {
