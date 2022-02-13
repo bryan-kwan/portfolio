@@ -406,6 +406,10 @@ img {
   -moz-background-clip: padding;
   border-radius: 0;
   background-clip: padding-box;
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 .panel-cta p,
 .panel-cta h3,
