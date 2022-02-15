@@ -1,15 +1,8 @@
 
 const Projects = [ //title, description, image src, page number --strings
 
-    ["title1", "description1", "s1.jpg", "1"],
-    ["title2", "description2", "s1.jpg", "2"],
-    ["title3", "description3", "s1.jpg", "3"],
-    ["title4", "description4", "s1.jpg", "4"],
-    ["title5", "description", "s1.jpg", "5"],
-    ["title6", "description", "s1.jpg", "6"],
-    ["title7", "description", "s1.jpg", "7"],
-    ["title8", "description", "s1.jpg", "8"],
-
+    ["Route Optimization Script", "This is a route optimization script that I developed for my engineering club, SUAV, in our Aeroconnect 2021 competition.", "RouteOptimizationThumbnail.png", "1"],
+    ["This JavaScript Table", "I made this table in JavaScript so that the project display can work dynamically", "JavascriptTable.png", "2"],
 ];
 
 const list_element = document.getElementById('list');
@@ -111,7 +104,7 @@ function BackButton(items) {
 function CreateProject(title, description, image, index) {
     let project = document.createElement('div');
     project.classList.add('project', 'col-xs-12', 'col-sm-6', 'col-md-4', 'col-lg-4');
-    project.innerHTML = `<a class="thumbnail"href=`+"project"+index+`>
+    project.innerHTML = `<a class="thumbnail"href=`+"project"+index+`.html>
                         <span class="img">
                             <img src="assets/images/`+image+`" alt="">
                             <span class="cover"><span class="more">See details &rarr;</span></span>
