@@ -2,6 +2,7 @@
 const Projects = [ //title, description, image src, page number --strings
 
     ["Route Optimization Script", "This is a route optimization script that I developed for my engineering club, SUAV, in our Aeroconnect 2021 competition.", "RouteOptimizationThumbnail.png", "1"],
+    ["ENCM369", "In this course I learned the AVR microarchitecture and how to read a data sheet", "ENCM369_1.jpg", "3"],
     ["This JavaScript Table", "I made this table in JavaScript so that the project display can work dynamically", "JavascriptTable.png", "2"],
 ];
 

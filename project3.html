@@ -46,24 +46,34 @@
  				<article class="post">
 					<header class="entry-header">
  						<div class="entry-meta"> 
- 							<span class="posted-on"><time class="entry-date published" date="2013-06-17">Feb 14, 2022</time></span>			
+ 							<span class="posted-on"><time class="entry-date published" date="2013-06-17">Feb 15, 2022</time></span>			
  						</div> 
- 						<h1 class="entry-title"><a href="project1.html" rel="bookmark">Route Optimization Script</a></h1>
+ 						<h1 class="entry-title"><a href="project1.html" rel="bookmark">ENCM369</a></h1>
 					</header> 
 					<div class="entry-content"> 
-						<p><img alt="" src="assets/images/RouteOptimizationDiagram.png"></p>
+						<p><img alt="" src="assets/images/ENCM369_1.jpg"></p>
 						<p>
-							As a member of SUAV, I was on the software team for the Aeroconnect 2021 competition. My job was to create a script that optimized the route of our UAV. In math, this is called a vehicle routing problem (VRP).
+							In ENCM369, I learned about the <b>AVR microarchitecture</b>, which is basically the Arduino chip. 
 						</p>
 						<p>
-							Using Python and Google OR Tools, I designed a script that minimized travel distance given a constrained route with capacity restrictions. Futhermore, the script takes into account pickup and delivery requests which were given by users via an app. In order to integrate my script with our system, I created a simple <b>REST API</b> using Flask that took data inputs and ran the optimization script to provide the best route for the UAV.
+							On the first lab, we had to use the I/O pins to turn an LED on/off according to switch inputs. One task was to make the LED turn off when the switch was pressed. The second was to make the LED turn on/off after three switch presses.
 						</p>
-
-						<p>Going into the project, I was completely lost. I knew nothing about Google OR Tools, API's and Flask. An immeasurable amount of time went into scanning the documentation for anything that fit my problem. I found it quite challenging to use frameworks because they create their own ecosystem of functions and objects that you have to look up</p>
-						
-						<p>In the end, our team placed first overall in the competition! Personally, though, I learned a ton working on this project; I improved at <b>learning from documentation</b>, I learned about <b>optimization scripts</b> in general, and I also learned about <b>API</b>'s!</p>
-						
-						<p>Check out the source code on <a href="https://github.com/bryan-kwan/route-optimizer" alt="github link">github</a>.</p>
+                        
+                        
+                        <div class="square">
+                            <p>
+                                <img alt="" src="assets/images/ENCM369_2.jpg" style="max-height:400px; float:left; margin-right:20px;margin-bottom: 20px;">
+                            </p>
+                            <p>
+                            The caveat was that the lab didn't provide that much information on how to make this work. This forced me to read the <b>data sheet</b> for the AVR128DB28 and figure out how the I/O pins work. I also had to write the code that set the correct I/O pins to the correct values.
+						    </p>
+                            <p>
+                                Some of the problems I encountered was figuring out how to modify one specific bit of a register. I had to use bitwise OR and AND to fix this. Additionally, I had to make sure holding down the switch didn't count as two presses. This problem is called debouncing. To fix it, I considered using interrupts but I decided to just detect switch releases instead of presses. 
+                            </p>
+                            <p>
+                                Despite the challenges, I got it to work. But more importantly, I learned how to read a <b>data sheet</b> got a handle on the fundamentals of <b>embedded design</b>.
+                            </p>
+						</div>
 				</article><!-- #post-## -->
 
 			</div> 
