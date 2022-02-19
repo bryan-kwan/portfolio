@@ -1,6 +1,6 @@
 
 const Projects = [ //title, description, image src, page number --strings
-
+    ["Python Chess Game", "Simple chess game with legal move logic. The thumbnail features the game Kholmov vs Bronstein from the 1964 USSR Championship. White to play: can you find the best move?", "kholmov_chess_1.png", "4"],
     ["Route Optimization Script", "This is a route optimization script that I developed for my engineering club, SUAV, in our Aeroconnect 2021 competition.", "RouteOptimizationThumbnail.png", "1"],
     ["ENCM369", "In this course I learned the AVR microarchitecture and how to read a data sheet", "ENCM369_1.jpg", "3"],
     ["This JavaScript Table", "I made this table in JavaScript so that the project display can work dynamically", "JavascriptTable.png", "2"],
@@ -13,7 +13,7 @@ let current_page = 1;
 let rows = list_element.classList.contains('projectpage') ? 5:2;
 let columns = 3;
 
-function DisplayList(items, wrapper, rows_per_page, columns_per_row, page) {
+function DisplayList(items, wrapper, rows_per_page, columns_per_row, page) { //displays a given amount of items
     wrapper.innerHTML = "";
     page--;
 
@@ -30,7 +30,7 @@ function DisplayList(items, wrapper, rows_per_page, columns_per_row, page) {
     }
 }
 
-function SetupPagination (items, wrapper, rows_per_page) {
+function SetupPagination (items, wrapper, rows_per_page) { //setup page buttons
     wrapper.innerHTML = "";
     if (items.length==0) {return;}
 
@@ -102,7 +102,7 @@ function BackButton(items) {
 }
 
 
-function CreateProject(title, description, image, index) {
+function CreateProject(title, description, image, index) { //html format for a "project" element
     let project = document.createElement('div');
     project.classList.add('project', 'col-xs-12', 'col-sm-6', 'col-md-4', 'col-lg-4');
     project.innerHTML = `<a class="thumbnail"href=`+"project"+index+`.html>
@@ -118,7 +118,7 @@ function CreateProject(title, description, image, index) {
     return project;
 }
 
-function CreateProjectRow(project_row_list) {
+function CreateProjectRow(project_row_list) { //row of project elements
     let row_element = document.createElement('div');
     row_element.classList.add('thumbnails', 'recentworks', 'row');
     for (let i = 0; i<project_row_list.length; i++) {

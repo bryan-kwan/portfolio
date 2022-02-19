@@ -46,34 +46,34 @@
  				<article class="post">
 					<header class="entry-header">
  						<div class="entry-meta"> 
- 							<span class="posted-on"><time class="entry-date published" date="2013-06-17">Feb 15, 2022</time></span>			
+ 							<span class="posted-on"><time class="entry-date published" date="2013-06-17">Feb 16, 2022</time></span>			
  						</div> 
- 						<h1 class="entry-title"><a href="project3.html" rel="bookmark">ENCM369</a></h1>
+ 						<h1 class="entry-title"><a href="project4.html" rel="bookmark">Chess Game</a></h1>
 					</header> 
 					<div class="entry-content"> 
-						<p><img alt="" src="assets/images/ENCM369_1.jpg"></p>
+						<p><img alt="" src="assets/images/kholmov_chess_2.png"></p>
+                        <p>Suprise, Nc6! What a move!</p>
 						<p>
-							In ENCM369, I learned about the <b>AVR microarchitecture</b>, which is basically the Arduino chip. 
+							I decided to make a simple chess game in Python using pygame.
 						</p>
 						<p>
-							On the first lab, we had to use the I/O pins to turn an LED on/off according to switch inputs. One task was to make the LED turn off when the switch was pressed. The second was to make the LED turn on/off after three switch presses.
+							This project uses an <b>Object Oriented</b> architecture where a central game object determines the rules of the game and the sub objects are for drawing in the board and pieces.
 						</p>
-                        
-                        
-                        <div class="square">
-                            <p>
-                                <img alt="" src="assets/images/ENCM369_2.jpg" style="max-height:400px; float:left; margin-right:20px;margin-bottom: 20px;">
-                            </p>
-                            <p>
-                            The caveat was that the lab didn't provide that much information on how to make this work. This forced me to read the <b>data sheet</b> for the AVR128DB28 and figure out how the I/O pins work. I also had to write the code that set the correct I/O pins to the correct values.
-						    </p>
-                            <p>
-                                Some of the problems I encountered was figuring out how to modify one specific bit of a register. I had to use bitwise OR and AND to fix this. Additionally, I had to make sure holding down the switch didn't count as two presses. This problem is called debouncing. To fix it, I considered using interrupts but I decided to just detect switch releases instead of presses. 
-                            </p>
-                            <p>
-                                Despite the challenges, I got it to work. But more importantly, I learned how to read a <b>data sheet</b> got a handle on the fundamentals of <b>embedded design</b>.
-                            </p>
-						</div>
+
+						<p>
+                            It was actually quite challenging for me to get this project off the ground. I found that, in the beginning, there was an overwhelming amount of work to do. I ended up having to 
+                            <b>refactor</b> my code a whole lot because I wanted to change the organizational layout. I also spent a lot of time reading the <b>documentation</b> for pygame.
+                        </p>
+						<p>
+                            Some of the technical issues I ran into a lot were related to the Python specific shallow copy vs deep copy conundrum. I fixed this by having each class provide its own copy function.
+                        </p>
+						<p>
+                            This project helped me reinforce my <b>OOP</b> skills. It was a good way for me to learn how to implement the concepts I learned in classes to a bigger sized project. It also gave me 
+                            an introductory experience with pygame and I learned the basic structures in the framework. In the future, I am going to look into adding machine learning
+                            to make a chess <b>AI</b>; I might also try implementing this project using <b>React</b>.
+                        </p>
+						
+						<p>Check out the source code on <a href="https://github.com/bryan-kwan/chessgame" alt="github">github</a>.</p>
 				</article><!-- #post-## -->
 
 			</div> 
