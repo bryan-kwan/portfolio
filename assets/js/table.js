@@ -1,9 +1,10 @@
 
 const Projects = [ //title, description, image src, page number --strings
-    ["ENEL343", "This course taught me about circuit analysis", "343.png", "5"],
     ["Python Chess Game", "Simple chess game with legal move logic. The thumbnail features the game Kholmov vs Bronstein from the 1964 USSR Championship. White to play: can you find the best move?", "kholmov_chess_1.png", "4"],
     ["Route Optimization Script", "This is a route optimization script that I developed for my engineering club, SUAV, in our Aeroconnect 2021 competition.", "RouteOptimizationThumbnail.png", "1"],
     ["ENCM369", "In this course I learned the AVR microarchitecture and how to read a data sheet", "ENCM369_1.jpg", "3"],
+    ["ENEL343", "This course taught me about circuit analysis", "343.png", "5"],
+    ["ENEL361", "This course was about circuits/materials analysis of diodes and transistors", "361.png", "6"],
     ["This JavaScript Table", "I made this table in JavaScript so that the project display can work dynamically", "JavascriptTable.png", "2"],
 ];
 
