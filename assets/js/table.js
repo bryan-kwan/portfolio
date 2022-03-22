@@ -6,6 +6,7 @@ const Projects = [ //title, description, image src, page number --strings
     ["ENCM369", "In this course I learned the AVR microarchitecture and how to read a data sheet", "ENCM369_1.jpg", "3"],
     ["ENEL343", "This course taught me about circuit analysis", "343.png", "5"],
     ["ENEL361", "This course was about circuits/materials analysis of diodes and transistors", "361.png", "6"],
+    ["ENEL300 Course", "This course was about the agile design process and focused on Scrum", "scrum.jpg", "8"],
     ["This JavaScript Table", "I made this table in JavaScript so that the project display can work dynamically", "JavascriptTable.png", "2"],
 ];
 
