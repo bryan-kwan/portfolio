@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+	
+	<title>Project Post</title>
+
+	<link rel="shortcut icon" href="assets/images/BKlogo.png">
+	
+	<!-- Bootstrap -->
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	<!-- Icon font -->
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+
+	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script> 
+        $(function(){
+            $('#header').load('header.html'),
+            $('#navbar').load('navbar.html'),
+            $('#footer').load('footer.html');
+        });
+    </script>
+	
+</head>
+<body>
+
+<header id="header"></header>
+<div id="navbar"></div>
+
+
+<main id="main">
+
+	<div class="container">
+		
+		<div class="row topspace">
+			<div class="col-sm-8 col-sm-offset-2">
+															
+ 				<article class="post">
+					<header class="entry-header">
+ 						<div class="entry-meta"> 
+ 							<span class="posted-on"><time class="entry-date published" date="2022-03-30">March 30, 2022</time></span>			
+ 						</div> 
+ 						<h1 class="entry-title"><a href="project5.html" rel="bookmark">ENEL300 Project Progression</a></h1>
+					</header> 
+					<div class="entry-content"> 
+						<p><img src="./assets/images/pcb_4.png" alt=""></p>
+						<p><img src="./assets/images/300_project_2.jpg"></p>
+						<p></p>
+						<p>Our project saw lots of changes as we went through each sprint and refined its scope and requirements.</p>
+						<p>At first, we wanted to use an analog circuit to invert the sound from a microphone, causing noise cancellation when played in earphones.</p>
+						<p>The image above shows a schematic of our circuit. Also, our breadboard implementation</p>
+						<p><img src="./assets/images/pcb_1.png"></p>
+						<p>In order to clean up the circuit and reduce size, I designed a <b>PCB</b> in <b>KiCad</b>, which is shown above.</p>
+						<p><img src="./assets/images/300_project_4.jpg"></p>
+						<p>We also decided to add retro music capabilities using the AVR128DB28. Basically, it plays notes by generating different frequency sine waves using the <b>DAC</b>.</p>
+						<p><img src="./assets/images/300_project_3.jpg"></p>
+						<p style="font-size: 12px">Music output on oscilliscope.</p>
+						<p>This project helped me learn a lot of technical skills like using the AVR, designing PCB's, basic circuit prototyping, and using benchtop instruments.
+							I also learned Scrum tools like daily standups and sprint planning. This helped to distribute work and keep everyone on track of things.
+						</p>
+					</div>
+
+				</article><!-- #post-## -->
+
+			</div> 
+		</div> <!-- /row post  -->
+
+		<div class="clearfix"></div>
+
+	</div>	<!-- /container -->
+
+</main>
+
+<footer id="footer"></footer>
+
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="assets/js/template.js"></script>
+</body>
+</html>
