@@ -1,6 +1,6 @@
 
 const Projects = [ //title, description, image src, page number --strings
-    ["ENEL300 Project", "This is the term project I worked on. My team built an analog circuit module for noise cancellation. It also plays music and is controllable using the AVR128DB28", "300.png", "7"],
+    ["ENEL300 Project", "This is the term project I worked on. My team built an analog circuit module for noise cancellation. It also plays music and is controllable using the AVR128DB28", "pcb_1.png", "7"],
     ["Python Chess Game", "Simple chess game with legal move logic. The thumbnail features the game Kholmov vs Bronstein from the 1964 USSR Championship. White to play: can you find the best move?", "kholmov_chess_1.png", "4"],
     ["Route Optimization Script", "This is a route optimization script that I developed for my engineering club, SUAV, in our Aeroconnect 2021 competition.", "RouteOptimizationThumbnail.png", "1"],
     ["ENCM369", "In this course I learned the AVR microarchitecture and how to read a data sheet", "ENCM369_1.jpg", "3"],
