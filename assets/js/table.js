@@ -8,8 +8,7 @@ const Projects = [ //title, description, image src, page number --strings
     ["ENEL343", "This course taught me about circuit analysis", "343.png", "5"],
     ["ENEL361", "This course was about circuits/materials analysis of diodes and transistors", "361.png", "6"],
     ["ENEL300 Course", "This course was about the agile design process and focused on Scrum", "scrum.jpg", "8"],
-    ["ENEL300 Course Talks", "This course also had guest speakers with a variety of interesting topics", "300_2.jpg", "9"],
-    
+    ["ENEL300 Course Talks", "This course also had guest speakers with a variety of interesting topics", "300_2.jpg", "9"], 
     ["This JavaScript Table", "I made this table in JavaScript so that the project display can work dynamically", "JavascriptTable.png", "2"],
     ["ENEL300 Introduction Practical Skills", "Some of the practical skills I learned in ILS", "pcb_6.jpg", "11"],
 ];
