@@ -1,6 +1,7 @@
 
 const Projects = [ //title, description, image src, page number --strings
     ["ENEL300 Project", "This is the term project I worked on. My team built an analog circuit module for noise cancellation. It also plays music and is controllable using the AVR128DB28", "pcb_1.png", "7"],
+    ["ENEL300 Project Progression", "This shows how the 300 project progressed over the term", "pcb_6.jpg", "10"],
     ["Python Chess Game", "Simple chess game with legal move logic. The thumbnail features the game Kholmov vs Bronstein from the 1964 USSR Championship. White to play: can you find the best move?", "kholmov_chess_1.png", "4"],
     ["Route Optimization Script", "This is a route optimization script that I developed for my engineering club, SUAV, in our Aeroconnect 2021 competition.", "RouteOptimizationThumbnail.png", "1"],
     ["ENCM369", "In this course I learned the AVR microarchitecture and how to read a data sheet", "ENCM369_1.jpg", "3"],
@@ -8,8 +9,9 @@ const Projects = [ //title, description, image src, page number --strings
     ["ENEL361", "This course was about circuits/materials analysis of diodes and transistors", "361.png", "6"],
     ["ENEL300 Course", "This course was about the agile design process and focused on Scrum", "scrum.jpg", "8"],
     ["ENEL300 Course Talks", "This course also had guest speakers with a variety of interesting topics", "300_2.jpg", "9"],
-    ["ENEL300 Project Progression", "This shows how the 300 project progressed over the term", "pcb_1.png", "10"],
+    
     ["This JavaScript Table", "I made this table in JavaScript so that the project display can work dynamically", "JavascriptTable.png", "2"],
+    ["ENEL300 Introduction Practical Skills", "Some of the practical skills I learned in ILS", "pcb_6.jpg", "11"],
 ];
 
 const list_element = document.getElementById('list');
